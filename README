@@ -1,0 +1,21 @@
+# Button Component Example (React)
+
+This is a simple React example that demonstrates how to use a reusable **Button component** and pass a function to it as a prop.
+
+---
+
+## 📌 What this code does
+
+When the **Submit** button is clicked, it logs `"Submitted"` to the browser console.
+
+---
+
+## 🧩 Example Usage
+
+```jsx
+<div className="card">
+  <Button
+    text="Submit"
+    onClickHandler={() => console.log('Submitted')}
+  />
+</div>
